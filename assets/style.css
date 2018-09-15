@@ -1,0 +1,17 @@
+.head-photo {
+  background-image: url('images/head.jpg');
+  height: 400px;
+}
+
+.head-font {
+  color: white;
+}
+
+.title-padding {
+  padding-top: 150px;
+}
+
+.front-page-image {
+  color: blue;
+  width: 100px;
+}

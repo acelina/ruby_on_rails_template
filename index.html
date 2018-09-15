@@ -8,11 +8,107 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css" />
-    
-    <title>Hello, world!</title>
+
+    <title>Ruby on Rails online course</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <!-- Head menu - navitation bar -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">RoR Factory</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contents">Contents</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- end of navigation bar -->
+
+    <!-- Head content -->
+    <div class="container">
+      <div class="jumbotron head-photo head-font">
+        <h1 class="display-4 title-padding">Learn Ruby on Rails!</h1>
+        <p class="lead">Learn in your own pace to develop web applications using Ruby on Rails.</p>
+      </div>
+    </div>
+    <!-- end of head content -->
+
+    <!-- Features section -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top front-page-image mx-auto" src="assets/images/globe.svg" alt="Web applications">
+            <div class="card-body">
+              <h5 class="card-title">Rails applications</h5>
+              <p class="card-text">Develop web applications using Rails framework.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top front-page-image mx-auto pt-2" src="assets/images/ruby.svg" alt="Code">
+            <div class="card-body">
+              <h5 class="card-title">Learn Ruby</h5>
+              <p class="card-text">Ruby is a programming language written for developer happiness.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center" style="width: 18rem;">
+            <img class="card-img-top front-page-image mx-auto pt-2" src="assets/images/mark-github.svg" alt="Code is available">
+            <div class="card-body">
+              <h5 class="card-title">Code provided</h5>
+              <p class="card-text">All examples explained in videos are provided in a Github repo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of features section -->
+
+    <!-- table of contents -->
+    <div class="container" id="contents">
+      <div class="row mt-4">
+        <div class="col">
+          <h1 class="text-center pb-4">What you will learn</h1>
+          <table class="table table-bordered mx-auto">
+            <tr><td>1. Introduction</td><td>6. Creating views</td></tr>
+            <tr><td>2. Setting up your developer environment</td><td>7. Linking MVC components</td></tr>
+            <tr><td>3. Creating new rails projects</td><td>8. Defining the routes</td></tr>
+            <tr><td>4. Creating controllers</td><td>9. Using JavaScript in Rails projects</td></tr>
+            <tr><td>5. Creating models</td><td>10. Doing asynchronous requests using AJAX</td></tr>
+          </table>
+          <p class="text-center"><a href="course_details.html">More details about the course contents</a>
+        </div>
+      </div>
+    </div>
+    <!-- end of table of contents -->
+
+    <!-- subscribe section -->
+    <div class="container">
+      <div class="row mt-4 bg-light">
+        <div class="col">
+          <h3 class="text-center pt-2 pb-2">Leave your email and will let you know when the course is open</h5>
+          <form class="form-inline justify-content-center pt-4 pb-4">
+            <div class="form-group mb-2">
+              <input type="text" class="form-control-plaintext mr-2" id="subscriberEmail" name="subscriberEmail" placeholder="email@example.com" />
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">I'm interested</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- end of subscribe section -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
